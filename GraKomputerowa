@@ -1,0 +1,1 @@
+liczba = input('Podaj liczbę z zakresu 1-20')
