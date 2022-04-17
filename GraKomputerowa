@@ -1,1 +1,19 @@
-liczba = input('Podaj liczbę z zakresu 1-20')
+from random import randint
+losowa = randint(1,21)
+
+liczba = int(input('Podaj liczbę z zakresu 1-20: '))
+
+while liczba!=losowa:
+
+    if liczba>losowa:
+        print('Liczba jest za duża!')
+    elif liczba<losowa:
+        print('Liczba jest za mała!')
+    liczba = int(input('Podaj liczbę z zakresu 1-20: '))
+    
+    liczba == losowa 
+    print('To ta liczba')
+    break
+
+
+
